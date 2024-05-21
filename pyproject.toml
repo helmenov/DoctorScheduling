@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "DoctorScheduling"
-version = "0.1.1"
+version = "0.2.0"
 description = ""
 authors = ["Kotaro SONODA <kotaro1976@gmail.com>"]
 readme = "README.md"
@@ -17,6 +17,9 @@ jpholiday = "^0.1.10"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.3"
+pyyaml = "^6.0.1"
+nbformat = "^5.10.4"
+nbclient = "^0.10.0"
 
 [build-system]
 requires = ["poetry-core"]
